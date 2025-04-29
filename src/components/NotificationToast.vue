@@ -6,10 +6,9 @@
         status === 'info' ? 'notification--info' : null,
         message && message.length > 0 ? 'notification--slide' : null,
     ]">
-        <p class="notification__text">
-            {{ message }}
-        </p>
-        <button title="close" ref="closeButton" class="notification__button" @click="$emit('clear-notification')">
+        <p class="notification__text"> {{ message }} </p>
+        <button data-testid="close-notification" title="close" ref="closeButton" class="notification__button"
+            @click="$emit('clear-notification')">
             &#10005;
         </button>
     </div>

@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Post Card Component > created posts renders correctly 1`] = `
+"<div>
+  <h1>Test Post</h1>
+  <p>Test post body...</p>
+</div>"
+`;
